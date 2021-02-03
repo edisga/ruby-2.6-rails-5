@@ -68,6 +68,7 @@ fi
 # -----------
 
 setRubyVersion(){
+    # Adding comment here...
 	#if [ "$FRAMEWORK_VERSION" = "2.3" ]; then  # default to 2.3.3
 	#	FRAMEWORK_VERSION=2.3.3
 	#fi
