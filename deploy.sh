@@ -68,7 +68,7 @@ fi
 # -----------
 
 setRubyVersion(){
-
+    export
     echo "Using ruby framework $FRAMEWORK_VERSION"
 	if [ "$FRAMEWORK_VERSION" = "2.3" ]; then  # default to 2.3.3
 		FRAMEWORK_VERSION=2.3.3
