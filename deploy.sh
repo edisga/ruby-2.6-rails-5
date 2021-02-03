@@ -71,6 +71,8 @@ setRubyVersion(){
 	#if [ "$FRAMEWORK_VERSION" = "2.3" ]; then  # default to 2.3.3
 	#	FRAMEWORK_VERSION=2.3.3
 	#fi
+
+    echo "Aqui.............."
 	RUBY_VERSION=$(ls /usr/local/.rbenv/versions | grep -v - | grep $FRAMEWORK_VERSION | tail -n 1)
 	echo "Using ruby version $RUBY_VERSION"
 }
